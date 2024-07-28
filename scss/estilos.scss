@@ -1,6 +1,6 @@
-/* Reset de estilos básico */
-
-
+h1{
+    text-decoration: underline;
+}
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +50,11 @@ nav ul li a {
 
 main {
     padding: 20px 0;
-    background-image: url(./imagenes/fondo1.jpg);
+    
+   
+    h3{
+        color: #2ecc71;
+    }
 }
 
 .products {
@@ -137,3 +141,7 @@ form{
 footer{
     background-color: #666;
 }
+@import"home";
+@import"formulario;
+
+
